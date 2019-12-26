@@ -7,7 +7,8 @@ CRC creation method was found on another website I can no longer remember (sorry
 
 Resultant duplication python list (result_dict) is actually a dictionary where the key is "CRC:FILESIZE". The value part is a FULL list of filenames (including the first filename found so don't delete all files in this list).
 Example:
-```result_dict = {
+```
+result_dict = {
     [CRC:FILESIZE] : (file1.xyz, file2.xyz...)
     [CRC:FILESIZE] : (file1.xyz, file2.xyz...)
 }
